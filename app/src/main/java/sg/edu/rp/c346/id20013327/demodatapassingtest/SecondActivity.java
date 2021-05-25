@@ -17,7 +17,7 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
 
         //Step 2
-        tvAnswer = findViewById(R.id.tv1);
+        tvAnswer = findViewById(R.id.tvInteger);
         Intent intentReceived = getIntent();
         int value = intentReceived.getIntExtra("value",0);
         tvAnswer.setText("Integer value received is: " + value);
